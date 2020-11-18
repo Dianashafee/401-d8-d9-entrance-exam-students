@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav style="height: 100px; background-color: #873436;" ></nav>
+    </header>
+    <br>
+    <br>
+<% result.forEach(ele =>{ %>
+
+<h2> Name :<%= ele.name %></h2>
+<h2>Patronus :<%= ele.patronus %></h2>
+<h2>Alive :<%= ele.alive %></h2>
+
+
+<a href="/savedChar/<%= ele.id%>">View Charecter</a>
+    <% }); %>
+
+</body>
+</html>

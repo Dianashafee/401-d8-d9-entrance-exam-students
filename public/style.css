@@ -1,5 +1,6 @@
 *{
     font-family: "Crimson Text", serif;
+    color: white;
 }
 
 /* 
@@ -11,3 +12,11 @@
     slytherin colors: #1e7553, #C0C0C0
     hufflepuff colors: #f5aa2b, #000000
 */
+
+#home{
+    background-color: #873436; 
+     font-size: 25px;
+    float: left;
+    width: 200px;
+    height: 300px;
+}
